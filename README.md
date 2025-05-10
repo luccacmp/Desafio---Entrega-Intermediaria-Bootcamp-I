@@ -1,45 +1,30 @@
-<<<<<<< HEAD
-# PROJETOS
-Bootcamp 2
-=======
-## Projeto Calculadora Web
-Uma calculadora simples desenvolvida com HTML, CSS e JavaScript, projetada para executar operações matemáticas básicas diretamente no navegador com uma interface prática e intuitiva.
+Calculadora Web
+Desenvolvido como parte do Bootcamp 2, este projeto é uma calculadora web simples e intuitiva, construída com HTML, CSS e JavaScript, que realiza operações matemáticas básicas diretamente no navegador.
+Visão Geral
+A Calculadora Web permite realizar as seguintes operações:
 
-##  Visão Geral
-Esta aplicação permite ao usuário realizar:
+Soma (+)
+Subtração (-)
+Multiplicação (*)
+Divisão (/)
 
-Somas (+)
+Possui uma interface organizada com botões para números, operadores, limpeza de tela (C), remoção de caracteres (DEL) e exibição de resultados (=). O design é funcional e adaptável a diferentes dispositivos.
+Funcionalidades
 
-Subtrações (-)
-
-Multiplicações (*)
-
-Divisões (/)
-
-Conta com uma interface organizada com botões para números, operadores, limpeza da tela (C), remoção de caracteres (DEL) e exibição de resultados (=).
-
-## Funcionalidades
-Visor de Operações e Resultados: Exibe em tempo real os números digitados e o resultado das operações.
-
-Teclas de Operação: A calculadora suporta operações aritméticas fundamentais.
-
+Visor Dinâmico: Exibe números, operadores e resultados em tempo real.
+Operações Aritméticas: Suporta cálculos fundamentais com validação de entradas.
 Controles de Limpeza:
+C: Reseta todas as entradas.
+DEL: Apaga o último caractere digitado.
 
-C: Limpa todas as entradas.
 
-DEL: Remove o último caractere digitado.
+Suporte a Teclado: Aceita entradas via números, operadores, Enter (calcula), Backspace (apaga) e Esc (limpa).
+Layout Responsivo: Adapta-se a diferentes tamanhos de tela, ideal para dispositivos móveis.
+Tratamento de Erros: Mostra "Erro" em casos como divisão por zero.
 
-Compatível com Teclado: Aceita comandos diretamente do teclado (números, operadores, Enter, Backspace, Esc).
+Tecnologias Utilizadas
 
-Layout Responsivo: Se adapta a diferentes tamanhos de tela, ideal para dispositivos móveis.
+HTML5: Estrutura semântica da interface.
+CSS3: Estilização visual e responsividade.
+JavaScript (ES6+): Lógica de cálculos e manipulação de eventos.
 
-Mensagens de Erro: Apresenta "Erro" em situações como divisão por zero.
-
-## Tecnologias Aplicadas
-HTML5 – estrutura semântica da interface.
-
-CSS3 – estilização visual e responsividade.
-
-JavaScript (ES6+) – lógica de operações e manipulação de eventos.
-
->>>>>>> 122cb45 (minha-calculadora)
