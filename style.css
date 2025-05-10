@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 320px; /* Largura ajustada */
+}
+
+#display {
+    width: calc(100% - 20px); /* Ajuste para padding */
+    padding: 20px 10px;
+    font-size: 2.5em;
+    text-align: right;
+    border: none;
+    box-sizing: border-box;
+    background-color: #222; /* Cor de fundo do display */
+    color: white; /* Cor do texto do display */
+    height: 80px; /* Altura fixa para o display */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 1px; /* Espaço entre os botões */
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none; /* Remove borda padrão */
+    cursor: pointer;
+    background-color: #e0e0e0;
+    transition: background-color 0.2s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #d5d5d5;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+.operator {
+    background-color: #f0ad4e; /* Laranja para operadores */
+    color: white;
+}
+
+.operator:hover {
+    background-color: #ec9c3d;
+}
+
+.operator:active {
+    background-color: #d88c2c;
+}
+
+.equals {
+    background-color: #5cb85c; /* Verde para igual */
+    color: white;
+    grid-column: span 2; /* Faz o botão de igual ocupar duas colunas */
+}
+
+.equals:hover {
+    background-color: #4cae4c;
+}
+
+.equals:active {
+    background-color: #449d44;
+}
+
+.zero {
+    grid-column: span 2; /* Faz o botão zero ocupar duas colunas */
+}
