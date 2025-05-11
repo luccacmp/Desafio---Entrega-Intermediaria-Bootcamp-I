@@ -1,5 +1,5 @@
 Calculadora Web
-Desenvolvido como parte do Bootcamp 2, este projeto é uma calculadora web simples e intuitiva, construída com HTML, CSS e JavaScript, que realiza operações matemáticas básicas diretamente no navegador.
+Desenvolvido como parte do Bootcamp I - Entrega Intermediária, este projeto é uma calculadora web simples e intuitiva, construída com HTML, CSS e JavaScript, que realiza operações matemáticas básicas diretamente no navegador.
 Visão Geral
 A Calculadora Web permite realizar as seguintes operações:
 
