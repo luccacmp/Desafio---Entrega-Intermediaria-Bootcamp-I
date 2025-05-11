@@ -1,4 +1,5 @@
 Calculadora Web – Bootcamp I: Entrega Intermediária
+
 Este projeto consiste em uma calculadora web simples e funcional, desenvolvida como parte da entrega intermediária do Bootcamp I. Utilizando HTML, CSS e JavaScript puro, a aplicação permite realizar operações matemáticas básicas diretamente no navegador.
 
 Funcionalidades
