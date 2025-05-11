@@ -1,30 +1,25 @@
-Calculadora Web
-Desenvolvido como parte do Bootcamp I - Entrega Intermediária, este projeto é uma calculadora web simples e intuitiva, construída com HTML, CSS e JavaScript, que realiza operações matemáticas básicas diretamente no navegador.
-Visão Geral
-A Calculadora Web permite realizar as seguintes operações:
+Calculadora Web – Bootcamp I: Entrega Intermediária
+Este projeto consiste em uma calculadora web simples e funcional, desenvolvida como parte da entrega intermediária do Bootcamp I. Utilizando HTML, CSS e JavaScript puro, a aplicação permite realizar operações matemáticas básicas diretamente no navegador.
 
-Soma (+)
-Subtração (-)
-Multiplicação (*)
-Divisão (/)
-
-Possui uma interface organizada com botões para números, operadores, limpeza de tela (C), remoção de caracteres (DEL) e exibição de resultados (=). O design é funcional e adaptável a diferentes dispositivos.
 Funcionalidades
+Operações aritméticas: realiza soma, subtração, multiplicação e divisão.
 
-Visor Dinâmico: Exibe números, operadores e resultados em tempo real.
-Operações Aritméticas: Suporta cálculos fundamentais com validação de entradas.
-Controles de Limpeza:
-C: Reseta todas as entradas.
-DEL: Apaga o último caractere digitado.
+Interface intuitiva: possui botões para números, operadores, limpeza de tela (C), remoção de caracteres (DEL) e exibição de resultados (=).
 
+Visor dinâmico: atualiza em tempo real conforme as entradas do usuário.
 
-Suporte a Teclado: Aceita entradas via números, operadores, Enter (calcula), Backspace (apaga) e Esc (limpa).
-Layout Responsivo: Adapta-se a diferentes tamanhos de tela, ideal para dispositivos móveis.
-Tratamento de Erros: Mostra "Erro" em casos como divisão por zero.
+Suporte a teclado: aceita inserção de números e operadores pelo teclado, incluindo as teclas Enter para calcular e Backspace para apagar.
 
-Tecnologias Utilizadas
+Responsividade: o layout é adaptável para diferentes tamanhos de tela, funcionando bem em celulares, tablets e computadores.
 
-HTML5: Estrutura semântica da interface.
-CSS3: Estilização visual e responsividade.
-JavaScript (ES6+): Lógica de cálculos e manipulação de eventos.
+Estrutura do Projeto
+Arquivo index.html: contém a estrutura básica da calculadora.
+
+Arquivo style.css: define os estilos visuais e regras de responsividade.
+
+Arquivo script.js: implementa a lógica de funcionamento da calculadora.
+
+Como Utilizar
+Para utilizar a calculadora, basta abrir o arquivo index.html em um navegador da web. Todos os arquivos devem estar na mesma pasta para garantir o funcionamento correto da aplicação.
+
 
